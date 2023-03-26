@@ -297,21 +297,21 @@ h2::after {
     width: 40px;
 }
 
-  .input-container {
+.input-container {
     height: 50px;
     position: relative;
     width: 100%;
-  }
+}
   
-  .ic1 {
+.ic1 {
     margin-top: 10px;
-  }
+}
   
-  .ic2 {
+.ic2 {
     margin-top: 22px;
-  }
+}
   
-  .input {
+.input {
     background-color: #f8f8fa;
     border-radius: 10px;
     border: 0;
@@ -321,9 +321,9 @@ h2::after {
     outline: 0;
     padding: 4px 20px 0;
     width: 100%;
-  }
+}
   
-  .cut {
+.cut {
     background-color: #c0c2ce;
     border-radius: 10px;
     height: 20px;
@@ -333,18 +333,18 @@ h2::after {
     transform: translateY(0);
     transition: transform 200ms;
     width: 76px;
-  }
+}
   
-  .cut-short {
+.cut-short {
     width: 50px;
-  }
+}
   
-  .input:focus ~ .cut,
-  .input:not(:placeholder-shown) ~ .cut {
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
     transform: translateY(8px);
-  }
+}
   
-  .placeholder {
+.placeholder {
     color: #65657b;
     font-family: sans-serif;
     left: 20px;
@@ -354,22 +354,22 @@ h2::after {
     transform-origin: 0 50%;
     transition: transform 200ms, color 200ms;
     top: 20px;
-  }
+}
   
-  .input:focus ~ .placeholder,
-  .input:not(:placeholder-shown) ~ .placeholder {
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
     transform: translateY(-30px) translateX(10px) scale(0.75);
-  }
+}
   
-  .input:not(:placeholder-shown) ~ .placeholder {
+.input:not(:placeholder-shown) ~ .placeholder {
     color: #808097;
-  }
+}
   
-  .input:focus ~ .placeholder {
-    color: #dc2f55;
-  }
+.input:focus ~ .placeholder {
+    color: #000;
+}
   
-  .submit {
+.submit {
     background-color: #333;
     border-radius: 10px;
     border: 0;
@@ -381,13 +381,13 @@ h2::after {
     outline: 0;
     text-align: center;
     width: 100%;
-  }
+}
   
-  .submit:active {
+.submit:active {
     background-color: #000;
-  }
+}
 
-  textarea {
+textarea {
     width: 100%;
     height: 194px;
     padding: 12px 20px;
@@ -395,7 +395,7 @@ h2::after {
     border-radius: 10px;
     background-color: #f8f8fa;
     resize: none;
-  }
+}
 
 
 /* RESPONSIVE ATTRIBUTES ----------------------------------*/
