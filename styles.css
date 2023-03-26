@@ -474,7 +474,7 @@ img {
 .form {
     flex-direction: column;
   }
-  textarea {
+textarea {
     margin-top: 12px;
   }
 }
